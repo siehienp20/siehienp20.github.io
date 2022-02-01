@@ -1,6 +1,5 @@
 # Testing Site
 
-![USD]((http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png)
-)
+![USD](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxRkasQ-qdRnDv3dRe4i3ABeEIjteU6jOd8kAYpvwc40LNaJSfpWeN--kQKQRCusKijo&usqp=CAU)
 
 A link between worlds
