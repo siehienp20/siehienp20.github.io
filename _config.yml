@@ -1,0 +1,32 @@
+# settings different from https://jekyllrb.com/docs/configuration/#default-configuration
+
+# external assets (exa) and internal assets (ina)
+# One can get a link to a shared dropbox file:
+# https://dl.dropboxusercontent.com/s/HOST_ID/filename.suffix
+# where HOST_ID changes from file to file
+exa: https://dl.dropboxusercontent.com/s/
+ina: /assets
+
+# https://jekyllrb.com/docs/pagination/
+# jekyll-paginate has to be installed by gem or bundle
+plugins: [jekyll-paginate]
+paginate: 5
+
+# https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles
+permalink: pretty
+
+# https://jekyllrb.com/docs/configuration/#front-matter-defaults
+# "path" is mendatory to define a scope. "type" is optional, it can be chosen
+# from "posts", "pages", "drafts", or a self-defined collection.
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
